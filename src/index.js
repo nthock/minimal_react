@@ -5,7 +5,7 @@ const title = 'My minimal React Webpack Babel Setup';
 
 ReactDOM.render(
   <div>{title}</div>,
-  document.getElementById('app')
+  document.getElementById('app'),
 );
 
 module.hot.accept();
